@@ -23,6 +23,7 @@ render((
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/helloworld" component={HelloWorld}/>
+        <Route path="/helloworld2" component={HelloWorld}/>
         <Route component={NotFound}/>
       </Switch>
     </App>
